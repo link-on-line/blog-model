@@ -11,6 +11,6 @@ public class DemoController {
 
     @RequestMapping(value = "getDemoPage", method = RequestMethod.GET)
     public String getDemoPath(){
-        return "layout/footer";
+        return "layout/laynew";
     }
 }

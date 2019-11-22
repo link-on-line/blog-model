@@ -4,8 +4,8 @@ server:
 spring:
   aop:
     proxy-target-class: true
-  resources:
-    static-locations: ["/templates/","/resources/","/static/","/public/"]
+#  resources:
+#    static-locations: ["/templates/","/resources/","/static/","/public/"]
   thymeleaf:
     mode: HTML5
     encoding: UTF-8
